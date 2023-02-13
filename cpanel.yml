@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cryptopadmin/public_html/
+    - /bin/cp -R src $DEPLOYPATH
